@@ -1,0 +1,22 @@
+
+body{
+    Background: url("../../assets/tank.jpg");
+    background-size: cover;
+    height: 1050px;
+    background-attachment: fixed
+
+
+}
+.co{
+    color: gold;
+    font-size: 30pt;
+    font-style: oblique;
+    font-family: 'Courier New', Courier, monospace; 
+    font-stretch: expanded;
+
+}
+
+.opa{
+    opacity: 0.80;
+    margin-top: -188px
+}

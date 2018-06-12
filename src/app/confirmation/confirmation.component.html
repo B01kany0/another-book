@@ -1,0 +1,23 @@
+
+
+<body>
+<h1 id="we">WELCOME TO THE ROCK HOTEL</h1>
+<h2 id="we">Your room is now waiting for you!!!!</h2>
+<tr >
+  <th>Name</th>
+  <th>Surname</th>
+  <th>Email</th>
+  <th>Check in Date</th>
+  <th>Check out Date</th>
+</tr>
+
+<tr *ngFor="let i of  bee">
+
+  <td>{{i.firstname}}</td>
+  <td>{{i.surname}}</td>
+  <td>{{ i.email}}</td>
+  <td>{{i.checkin}}</td>
+  <td>{{i.checkout}}</td>
+</tr>
+
+</body>

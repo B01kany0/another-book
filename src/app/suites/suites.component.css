@@ -1,0 +1,145 @@
+.slideshow-container{
+    overflow: hidden;
+       height:55vh;
+       margin-left: 20%;
+       margin-right: 20%;
+      
+    }
+
+.slideshow-container figure div{
+  width: 20%;
+  float: left;
+  height: 100px;
+
+
+
+ 
+}
+
+.slideshow-container figure img{
+  width: 100%;
+  float: left;
+  
+}
+
+.slideshow-container figure {
+       
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+   animation: 50s slideshow infinite;
+}
+
+@keyframes slideshow{
+
+    0%{
+        left: 0%;
+    }
+  0%{
+      left: 0%;
+  }
+
+  5%{
+      left: 0%;
+  }
+    10% {
+        left: 0%;
+    }
+
+    12%{
+      left: -100%;
+    }
+
+    15%{
+        left: -100;
+    }
+
+    22%{
+      left: -100%;
+    }
+
+    24%{
+        left: -200%;
+    }
+
+    28%{
+        left: -200px;
+    }
+
+    34%{
+        left: -200%;
+    }
+
+    36%{
+       left: -300%;
+    }
+
+    40%{
+        left: -300%;
+    }
+
+    46%{
+        left: -300%;
+
+    }
+
+    48%{
+        left: -400%;
+    }
+
+    54%{
+        left: -400px;
+    }
+
+    58%{
+        left: -400%;
+    }
+
+    60%{
+        left:-300%
+    }
+
+    65%{
+        left: -300px;
+    }
+
+    70%{
+        left: -300%;
+    }
+
+    72%{
+        left: -200%;
+    }
+
+    76%{
+        left: -200px;
+    }
+
+    82%{
+        left: -200;
+    }
+
+    84%{
+        left: -100%;
+    }
+
+    88%{
+        left: -100px;
+    }
+
+    94%{
+        left: -100%;
+    }
+
+    96%{
+        left: 0%;
+    }
+
+
+
+}     
+
+div{
+    background-color: goldenrod
+}

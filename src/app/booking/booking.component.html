@@ -1,0 +1,64 @@
+<body>
+    <div>
+
+
+      <fieldset>
+          <legend><strong>Booking:</strong></legend>
+        
+        
+          <body>
+            <div>
+            <input type="text" #first placeholder="First name"  #firstname  >
+            <br>
+            <br>
+            <input type="text" #surname placeholder="Surname name" #surname>
+            <br>
+            <br>
+            <input type="text" #email placeholder="E-mail" #email>
+            <br>
+            <br>
+            <p>Check-In</p>
+            
+            <input type="date" #checkin placeholder="Check-In" #checkin>
+            <br>
+            <br>
+            <p>Check-Out</p>
+            
+            <input type="date" #checkout placeholder="Check-Out" #checkout>&#160;&#160;
+            
+            
+            
+            
+           &#160;<a routerLink="/confirmation"> <button (click)="Book(firstname.value ,surname.value ,email.value,checkin.value,checkout.value)">BOOK</button></a>
+           
+            <div class="last2">
+
+
+        </div>
+           
+            
+           
+            </div>
+            </body>
+
+              <BR>
+                
+                <br>
+              
+        </fieldset><br>
+        <h2>Confirmation</h2>
+        
+        
+        <div class="last">
+        <p>{{ firstname.value}}</p>
+        <p>{{ surname.value}}</p>
+        <p>{{ email.value}}</p>
+        <P> {{checkin.value}}</P>
+        <p> {{ checkout.value}}</p>
+        
+    </div>
+        <br>
+   
+    </div>
+       
+</body>
